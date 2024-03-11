@@ -1,0 +1,255 @@
+/* phone */
+@media screen and (max-width: 767px) {
+    body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
+        min-height: 100vh;
+        background-color: hsla(40, 91%, 22%, 0.5);
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 360px;
+        height: 340px;
+        border: none;
+        border-radius: 8px;
+        background-color: hsl(40, 75%, 85%);
+    }
+
+    .counter {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #number {
+        font-family: monospace;
+        font-weight: bold;
+        font-size: 96px;
+        margin-bottom: 5rem;
+    }
+
+    .controls {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 1.4rem;
+    }
+
+    .controls > button {
+        width: 96px;
+        height: 50px;
+        border-radius: 8px;
+        font-family: monospace;
+        font-weight: bold;
+        font-size: 16px;
+        margin: 8px;
+        border: none;
+        color: white;
+    }
+
+    #increment {
+        background-color: hsl(120, 85%, 40%);
+    }
+
+    #decrement {
+        background-color: hsl(54, 90%, 45%);
+    }
+
+    #reset {
+        background-color: hsl(0, 85%, 50%);
+    }
+
+    #increment:active {
+        background-color: hsl(120, 80%, 35%);
+    }
+
+    #decrement:active {
+        background-color: hsl(54, 85%, 40%);
+    }
+
+    #reset:active {
+        background-color: hsl(0, 80%, 45%);
+    }
+}
+
+/* tablet */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
+        min-height: 100vh;
+        background-color: hsla(40, 91%, 22%, 0.5);
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 560px;
+        height: 520px;
+        border: none;
+        border-radius: 8px;
+        background-color: hsl(40, 75%, 85%);
+    }
+
+    .counter {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #number {
+        font-family: monospace;
+        font-weight: bold;
+        font-size: 120px;
+        margin-bottom: 8rem;
+    }
+
+    .controls {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 1.4rem;
+    }
+
+    .controls > button {
+        width: 128px;
+        height: 72px;
+        border-radius: 8px;
+        font-family: monospace;
+        font-weight: bold;
+        font-size: 20px;
+        margin: 20px;
+        border: none;
+        color: white;
+    }
+
+    #increment {
+        background-color: hsl(120, 85%, 40%);
+    }
+
+    #decrement {
+        background-color: hsl(54, 90%, 45%);
+    }
+
+    #reset {
+        background-color: hsl(0, 85%, 50%);
+    }
+
+    #increment:active {
+        background-color: hsl(120, 80%, 35%);
+    }
+
+    #decrement:active {
+        background-color: hsl(54, 85%, 40%);
+    }
+
+    #reset:active {
+        background-color: hsl(0, 80%, 45%);
+    }
+}
+
+/* pc */
+@media screen and (min-width: 1025px) {
+    body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
+        min-height: 100vh;
+        background-color: hsla(40, 91%, 22%, 0.5);
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 560px;
+        height: 520px;
+        border: none;
+        border-radius: 8px;
+        background-color: hsl(40, 75%, 85%);
+    }
+
+    .counter {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #number {
+        font-family: monospace;
+        font-weight: bold;
+        font-size: 120px;
+        margin-bottom: 8rem;
+    }
+
+    .controls {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 1.4rem;
+    }
+
+    .controls > button {
+        width: 128px;
+        height: 72px;
+        border-radius: 8px;
+        font-family: monospace;
+        font-weight: bold;
+        font-size: 20px;
+        margin: 20px;
+        border: none;
+        color: white;
+        cursor: pointer;
+    }
+
+    #increment {
+        background-color: hsl(120, 85%, 40%);
+    }
+
+    #decrement {
+        background-color: hsl(54, 90%, 45%);
+    }
+
+    #reset {
+        background-color: hsl(0, 85%, 50%);
+    }
+
+    #reset:active {
+        background-color: hsl(0, 80%, 45%);
+    }
+
+    #increment:hover {
+        background-color: hsl(120, 80%, 20%);
+    }
+
+    #decrement:hover {
+        background-color: hsl(54, 85%, 25%);
+    }
+
+    #reset:hover {
+        background-color: hsl(0, 80%, 30%);
+    }
+
+    #increment:active {
+        background-color: hsl(120, 80%, 35%);
+    }
+
+    #decrement:active {
+        background-color: hsl(54, 85%, 40%);
+    }
+}
